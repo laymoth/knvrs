@@ -2,14 +2,13 @@
 
 *{
   color: #ffffff;
-  background: transparent;
   margin: 0;
   padding: 0;
+  background-color: #11111b;
   box-sizing: border-box;
 }
 
 html {
-  background: url("../img/bg.svg") center center fixed;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
@@ -34,7 +33,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  background: #100F0D;
+  background: #11111b;
   padding: 3px 100px;
   display: flex;
   justify-content: space-between;
@@ -60,7 +59,6 @@ header .logo{
 #footer a {
   color: #ff79c6;
   background-clip:text;
-  font-family: var(--font);
   text-decoration:none;
 }
 
@@ -80,7 +78,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #ff79c6;
+  background: #74c7ec;
 }
 
 fieldset {
@@ -90,7 +88,6 @@ fieldset {
 }
 
 .button {
-  font-family: "Poppins", sans-serif;
   color: white;
   padding: 6px 32px;
   text-align: center;
@@ -166,4 +163,3 @@ fieldset {
   }
 
 }
-      
